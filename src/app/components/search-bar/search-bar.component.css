@@ -1,0 +1,18 @@
+.ic-search {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+mat-option  {
+    color: var(--violet) !important;
+}
+
+.mat-primary {
+    color: var(--violet) !important;
+}
+
+:host ::ng-deep .mdc-text-field--outlined {
+    --mdc-outlined-text-field-container-shape: 28px;
+}
+

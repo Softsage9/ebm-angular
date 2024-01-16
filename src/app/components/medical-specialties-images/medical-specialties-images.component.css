@@ -1,0 +1,35 @@
+.steto {
+  position: absolute;
+  width: 166px;
+  height: 122px;
+  top: 477px;
+  left: 1079px;
+}
+
+.macaron-gratuit {
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  top: 460px;
+  left: 1272px;
+  background-color: var(--blanc);
+  border-radius: 64px;
+}
+
+.clap-wrapper {
+  position: relative;
+  width: 108px;
+  height: 108px;
+  top: 10px;
+  left: 10px;
+  background-image: url(../../../assets/img/txt-macaron-gratuit.svg);
+  background-size: 100% 100%;
+}
+
+.clap {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 31px;
+  left: 34px;
+}

@@ -1,1 +1,25 @@
-<p>dialog-search works!</p>
+<mat-dialog-content class="mat-typography dialog-content">
+  <div class="modal-header">
+  <h1 class="title">Votre recherche</h1>
+    <button mat-icon-button mat-dialog-close class="close-icon">
+      <mat-icon>close</mat-icon>
+    </button>
+  </div>
+  <h2 class="subtitle">Faites une recherche standard</h2>
+
+  <div class="search-bar">
+    <app-search-bar [width]="'50%'"></app-search-bar>
+  </div>
+
+  <p class="or-divider">ou</p>
+
+  <h2 class="explore-content">Explorer nos contenus par thème</h2>
+
+  <div class="container-tags">
+    <app-tags class="tag"></app-tags>
+  </div>
+
+
+
+</mat-dialog-content>
+

@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './medical-specialties-images.component.css'
 })
 export class MedicalSpecialtiesImagesComponent {
-
+  public steto: string = '../../../assets/img/steto.png';
+  public clap: string = '../../../assets/img/clap.svg';
 }

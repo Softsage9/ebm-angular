@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:600,500,400,700|Poppins:300,600");
+@import 'styleguide.css';
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+.mat-mdc-standard-chip {
+  --mdc-chip-elevated-container-color: #9469CB;
+  --mdc-chip-elevated-disabled-container-color: #e0e0e0;
+  --mdc-chip-label-text-color: #fff;
+  --mdc-chip-disabled-label-text-color: #212121;
+  --mdc-chip-with-icon-icon-color: #212121;
+  --mdc-chip-with-icon-disabled-icon-color: #212121;
+  --mdc-chip-with-trailing-icon-disabled-trailing-icon-color: #212121;
+  --mdc-chip-with-trailing-icon-trailing-icon-color: #212121;
+  --mdc-chip-with-icon-selected-icon-color: #212121;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

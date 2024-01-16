@@ -1,0 +1,30 @@
+.txt-intro {
+  position: absolute;
+  width: 752px;
+  height: 260px;
+  top: 168px;
+  left: 150px;
+}
+
+.moteur-de-recherche {
+  position: absolute;
+  width: 750px;
+  height: 64px;
+  top: 196px;
+  left: 0;
+  /*background-color: var(--blanc);*/
+  /*border-radius: 100px;*/
+}
+
+.p {
+  position: absolute;
+  width: 552px;
+  top: 0;
+  left: 3px;
+  font-family: "poppins", Helvetica, sans-serif;
+  font-weight: 600;
+  color: var(--violet);
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 52px;
+}

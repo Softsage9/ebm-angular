@@ -1,0 +1,105 @@
+.dialog-content {
+  padding: 24px;
+  text-align: center;
+  padding-top: 100px;
+  color: var(--violet);
+  background: #ffeee7;
+  height: 100% !important;
+}
+
+.search-bar {
+  align-content: center;
+  text-align: center;
+  padding-left: 50px;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.subtitle,
+.explore-content {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.or-divider {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+  font-weight: 500;
+}
+
+/* Dialog Actions Styles */
+.dialog-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+
+.action-button {
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 0 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+.action-button.cancel {
+  /* Specific styles for the cancel button if needed */
+}
+
+.action-button.install {
+  /* Specific styles for the install button if needed */
+}
+
+
+.mat-typography {
+  font-family: "Inter", Helvetica, serif;
+}
+
+.mat-dialog-container {
+background: rgba(0, 0, 0, 0.5); / or any other color for the overlay */
+}
+
+.close-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 8px;
+}
+
+.overlap-group-2 {
+  display: flex;
+  width: 720px;  height: 152px;
+  align-items: center;
+  text-align: center;
+}
+
+.container-tags {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.container-tags > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.tag {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.custom-dialog-container {
+  background: #ffeee7 !important;
+}
+

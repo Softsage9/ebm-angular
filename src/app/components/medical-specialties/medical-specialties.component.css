@@ -1,0 +1,30 @@
+.r-spe {
+  position: absolute;
+  width: 1440px;
+  height: 295px;
+  top: 524px;
+  left: 0;
+  background-color: #ffeee7;
+}
+
+.overlap-group-2 {
+  position: absolute;
+  width: 1140px;
+  height: 152px;
+  top: 95px;
+  left: 150px;
+}
+
+.rechercher-par-th-me {
+  position: absolute;
+  top: 47px;
+  left: 150px;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 700;
+  color: var(--violet);
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+
+

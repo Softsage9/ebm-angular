@@ -1,1 +1,20 @@
-<p>navbar works!</p>
+<div class="nav">
+  <img class="logo-EMB-large-RVB" [src]="logoPath" alt="Logo" />
+  <nav class="navbar">
+    <a href="link">Nos valeurs</a>
+    <a href="link2">Notre méthode</a>
+    <a href="link3">Notre équipe</a>
+    <a href="link4">Les actus</a>
+    <a href="link5">Aide</a>
+  </nav>
+  <div class="outils">
+    <button class="icon-button" (click)="openDialog()">
+      <img class="img" [src]="searchIconPath" alt="search icon" />
+    </button>
+    <button class="icon-button">
+      <img class="img" [src]="userIconPath" alt="user icon" />
+    </button>
+  </div>
+  <img class="subheader" [src]="subheaderPath" alt="subheader path" />
+</div>
+
