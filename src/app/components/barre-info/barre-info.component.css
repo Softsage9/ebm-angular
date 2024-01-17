@@ -9,6 +9,7 @@
   width: 100%;
   flex: 0 0 auto;
   background-color: #f8e0d84c;
+  right: 20px;
 }
 .frame {
   display: flex;
@@ -62,4 +63,15 @@
   font-size: 14px;
   letter-spacing: 0;
   line-height: normal;
+}
+
+@keyframes scrollBanner {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.div-2 {
+  display: flex;
+  white-space: nowrap;
+  animation: scrollBanner 10s linear infinite;
 }
