@@ -1,0 +1,197 @@
+.frame-16 {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: center;
+    position: absolute;
+    top: 3051px;
+    left: 0;
+  }
+  
+  .frame-17 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #4c169033;
+  }
+  
+  .layer {
+    position: relative;
+    height: 24px;
+  }
+  
+  .vector-6 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 1073px;
+    left: -6099px;
+  }
+  
+  .union-2 {
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    top: 2px;
+    left: 2px;
+  }
+  
+  .text-wrapper-22 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: var(--violet);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .valeurs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 160px 0px 160px 150px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--rose-clair);
+  }
+  
+  .div-4 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .text-wrapper-23 {
+    position: relative;
+    width: 517px;
+    margin-top: -1px;
+    font-family: var(--h1-font-family);
+    font-weight: var(--h1-font-weight);
+    color: var(--violet);
+    font-size: var(--h1-font-size);
+    letter-spacing: var(--h1-letter-spacing);
+    line-height: var(--h1-line-height);
+    font-style: var(--h1-font-style);
+  }
+  
+  .valeurs-2 {
+    position: relative;
+    width: 555px;
+    height: 901px;
+  }
+  
+  .frame-18 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    top: 1px;
+  }
+  
+  .frame-19 {
+    display: flex;
+    flex-direction: column;
+    width: 555px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .frame-20 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .line-2 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    margin-top: -1px;
+    object-fit: cover;
+  }
+  
+  .titre {
+    display: flex;
+    align-items: flex-start;
+    gap: 72px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .EBM-l-alli-du-m {
+    position: relative;
+    align-self: stretch;
+    width: 459px;
+    margin-top: -1px;
+    font-family: var(--h4-font-family);
+    font-weight: var(--h4-font-weight);
+    color: var(--violet);
+    font-size: var(--h4-font-size);
+    letter-spacing: var(--h4-letter-spacing);
+    line-height: var(--h4-line-height);
+    font-style: var(--h4-font-style);
+  }
+  
+  .icone {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 6px;
+    left: 531px;
+  }
+  
+  .nous-avons-con-u-EBM {
+    position: relative;
+    width: 456px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: var(--gris-sombre);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .gr-ce-nos-guides-de {
+    position: relative;
+    width: 456px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: var(--gris-sombre);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+
+  .illus-home-allie {
+    position: absolute;
+    width: 718px;
+    height: 916px;
+    top: 3203px;
+    left: 722px;
+  }

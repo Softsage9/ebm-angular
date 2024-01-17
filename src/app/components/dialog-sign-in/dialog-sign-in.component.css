@@ -10,6 +10,10 @@ h2[mat-dialog-title] {
   font-family: 'Inter', sans-serif;
 }
 
+.mat-mdc-dialog-actions .mat-button-base+.mat-button-base, .mat-mdc-dialog-actions .mat-mdc-button-base+.mat-mdc-button-base {
+  margin-left: 0px !important;
+}
+
 mat-dialog-content p {
   /* font-family: "Inter", Helvetica, sans-serif !important; */
   color: black;
@@ -20,17 +24,23 @@ mat-dialog-actions {
   flex-direction: column;
   align-items: stretch;
   margin-top: 20px;
+  padding: 10px 25px !important;
 
   .or-separator {
     text-align: center;
     margin: 20px 0;
+    color: #4c1690;
   }
 
   button {
     margin-top: 10px;
+    width: 450px !important;
   }
-
   /* Style specific buttons if needed */
+}
+
+.btn-conn-1 {
+  margin-bottom: 13px;
 }
 
 .strong {
@@ -49,6 +59,10 @@ mat-dialog-actions {
   color: #fff !important;
   border-radius: 30px !important;
   height: 55px;
+}
+
+.btn-conn-2 {
+  margin-right: 10px;
 }
 
 mat-icon {

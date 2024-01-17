@@ -33,3 +33,29 @@
   top: 31px;
   left: 34px;
 }
+
+@keyframes rotateWrapper {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes counterRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.clap-wrapper {
+  animation: rotateWrapper 2s linear infinite;
+}
+
+.clap {
+  animation: counterRotate 2s linear infinite;
+}

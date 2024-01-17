@@ -57,14 +57,14 @@
   /* Specific styles for the install button if needed */
 }
 
-
 .mat-typography {
   font-family: "Inter", Helvetica, serif;
 }
 
 .mat-dialog-container {
-background: rgba(0, 0, 0, 0.5); / or any other color for the overlay */
+  background: rgba(0, 0, 0, 0.5);
 }
+
 
 .close-icon {
   position: absolute;
@@ -75,7 +75,8 @@ background: rgba(0, 0, 0, 0.5); / or any other color for the overlay */
 
 .overlap-group-2 {
   display: flex;
-  width: 720px;  height: 152px;
+  width: 720px;
+  height: 152px;
   align-items: center;
   text-align: center;
 }
@@ -102,4 +103,3 @@ background: rgba(0, 0, 0, 0.5); / or any other color for the overlay */
 .custom-dialog-container {
   background: #ffeee7 !important;
 }
-
