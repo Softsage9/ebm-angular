@@ -156,7 +156,7 @@
   font-style: var(--h3-font-style);
 }
 
- .frame-5 {
+ .button {
   display: inline-flex;
   height: 64px;
   align-items: center;
@@ -168,6 +168,8 @@
   border-radius: 100px;
   border: 1px solid;
   border-color: var(--violet);
+  width: 230px;
+  background-color: transparent !important;
 }
 
  .text-wrapper-7 {
@@ -359,6 +361,9 @@
   height: 48px;
   top: 633px;
   left: 1028px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
  .arrow-wrapper {
@@ -407,4 +412,8 @@
   height: 24px;
   top: 1073px;
   left: -6099px;
+}
+
+.btn-left {
+  margin-right: 20px;
 }

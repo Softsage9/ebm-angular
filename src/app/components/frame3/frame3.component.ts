@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { IMPORT_DEPENDENCY } from './IMPORT_DEPENDENCY';
 
 @Component({
   selector: 'app-frame3',
   standalone: true,
-  imports: [],
+  imports: [IMPORT_DEPENDENCY], 
   templateUrl: './frame3.component.html',
   styleUrl: './frame3.component.css'
 })
@@ -22,4 +23,6 @@ export class Frame3Component {
   public arrow112: string = '../../../assets/img/arrow-11-2.svg';
   public logo: string = '../../../assets/img/logo.svg';
   public icContexttualise: string = '../../../assets/img/ic-contextualise.svg';
+
+  public text: string = 'Voir toutes les actus'
 }
