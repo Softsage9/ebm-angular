@@ -1,14 +1,24 @@
 <div class="content">
-    <h2 mat-dialog-title>Vous devez être connecté pour accéder à ce contenu</h2>
-    <mat-dialog-content>
-        <p>Ce contenu est réservé aux médecins généralistes et aux étudiants en médecine générale. Connectez-vous ou
-            créez <strong class="strong">gratuitement</strong> votre compte pour y <strong>accéder</strong>.</p>
-        <!-- Your form fields would go here -->
-    </mat-dialog-content>
-    <mat-dialog-actions>
-        <button mat-button mat-dialog-close>Me connecter</button>
-        <button mat-button [mat-dialog-close]="true">Créer mon compte</button>
-        <div class="or-separator">ou</div>
-        <button mat-button>Identifier avec PRO SANTE CONNECT</button>
-    </mat-dialog-actions>
+  <h2 mat-dialog-title>Vous devez être connecté pour accéder à ce contenu</h2>
+  <mat-dialog-content>
+    <p>
+      Ce contenu est réservé aux médecins généralistes et aux étudiants en
+      médecine générale. Connectez-vous ou créez
+      <strong class="strong">gratuitement</strong> votre compte pour y
+      <strong>accéder</strong>.
+    </p>
+    <mat-icon>info</mat-icon>
+    <small
+      >Vous êtes interne ? Vous pouvez vous inscrire lorem ipsum dolor sit
+      amet</small
+    >
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button class="btn-conn" mat-raised-button>Me connecter</button>
+    <button class="btn-conn" mat-raised-button [mat-dialog-close]="true">
+      Créer mon compte
+    </button>
+    <div class="or-separator">ou</div>
+    <button mat-button>Identifier avec PRO SANTE CONNECT</button>
+  </mat-dialog-actions>
 </div>
