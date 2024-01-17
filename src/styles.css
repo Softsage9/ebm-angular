@@ -33,5 +33,12 @@ a {
   --mdc-chip-with-icon-selected-icon-color: #212121;
 }
 
+html .mat-mdc-fab.mat-accent, html .mat-mdc-mini-fab.mat-accent {
+  --mdc-fab-container-color: #fff;
+  --mat-fab-foreground-color: #4C1690;
+  --mat-fab-state-layer-color: #fff;
+  --mat-fab-ripple-color: rgba(255, 255, 255, 0.1);
+}
+
 html, body { height: 100%; }
 body { margin: 0; font-family: 'Inter', sans-serif; }
