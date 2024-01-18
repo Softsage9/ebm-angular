@@ -20,11 +20,17 @@
         <div class="frame-18">
           <img class="line-2" [src]="line14" />
           <mat-accordion>
-            <mat-expansion-panel>
+            <mat-expansion-panel hideToggle="true" (opened)="panelOpenState_1 = true" (closed)="panelOpenState_1 = false">
               <mat-expansion-panel-header>
-                <h1 class="header">
-                  Gagnez du temps et de la sérénité pendant vos consultations
-                </h1>
+                <mat-panel-title class="costum-title">
+                  <h1 class="header">
+                    Gagnez du temps et de la sérénité pendant vos consultations
+                  </h1>
+                </mat-panel-title>
+                <mat-panel-description class="icons-right">
+                  <mat-icon *ngIf="!panelOpenState_1">add</mat-icon>
+                  <mat-icon *ngIf="panelOpenState_1">remove</mat-icon>
+                </mat-panel-description>
               </mat-expansion-panel-header>
               <p>
                 <strong
@@ -48,11 +54,18 @@
           </mat-accordion>
           
           <img class="line-2" [src]="line14" />
-          <mat-expansion-panel>
+          <mat-expansion-panel hideToggle="true" (opened)="panelOpenState_2 = true" (closed)="panelOpenState_2 = false">
             <mat-expansion-panel-header>
-              <h1 class="header">
-                Des sources fiables et à jour, un financement public
-              </h1>
+              <mat-panel-title class="costum-title">
+                
+                <h1 class="header">
+                  Des sources fiables et à jour, un financement public
+                </h1>
+              </mat-panel-title>
+              <mat-panel-description class="icons-right">
+                <mat-icon *ngIf="!panelOpenState_2">add</mat-icon>
+                <mat-icon *ngIf="panelOpenState_2">remove</mat-icon>
+              </mat-panel-description>
             </mat-expansion-panel-header>
             <p>
               <strong
@@ -75,11 +88,17 @@
           </mat-expansion-panel>
 
           <img class="line-2" [src]="line14" />
-          <mat-expansion-panel>
+          <mat-expansion-panel hideToggle="true" (opened)="panelOpenState_3 = true" (closed)="panelOpenState_3 = false">
             <mat-expansion-panel-header>
-              <h1 class="header">
-                La plus grande base de données de médecine générale en langue française
-              </h1>
+              <mat-panel-title class="costum-title">
+                <h1 class="header">
+                  La plus grande base de données de médecine générale en langue française
+                </h1>
+              </mat-panel-title>
+              <mat-panel-description class="icons-right">
+                <mat-icon *ngIf="!panelOpenState_3">add</mat-icon>
+                <mat-icon *ngIf="panelOpenState_3">remove</mat-icon>
+              </mat-panel-description>
             </mat-expansion-panel-header>
             <p>
               <strong
@@ -102,11 +121,17 @@
           </mat-expansion-panel>
 
           <img class="line-2" [src]="line14" />
-          <mat-expansion-panel>
-            <mat-expansion-panel-header>
-              <h1 class="header">
-                Une équipe éditoriale de généralistes du Collège de la Médecine Générale
-              </h1>
+          <mat-expansion-panel  hideToggle="true" (opened)="panelOpenState_4 = true" (closed)="panelOpenState_4 = false">
+            <mat-expansion-panel-header >
+              <mat-panel-title class="costum-title">
+                <h1 class="header">
+                  Une équipe éditoriale de généralistes du Collège de la Médecine Générale
+                </h1>
+              </mat-panel-title>
+              <mat-panel-description class="icons-right">
+                <mat-icon *ngIf="!panelOpenState_4">add</mat-icon>
+                <mat-icon *ngIf="panelOpenState_4">remove</mat-icon>
+              </mat-panel-description>
             </mat-expansion-panel-header>
             <p>
               <strong

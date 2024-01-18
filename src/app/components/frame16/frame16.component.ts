@@ -8,6 +8,10 @@ import { IMPORT_DEPENDENCY } from './IMPORT_DEPENDENCY';
   styleUrl: './frame16.component.css'
 })
 export class Frame16Component {
+  public panelOpenState_1 = false;
+  public panelOpenState_2 = false;
+  public panelOpenState_3 = false;
+  public panelOpenState_4 = false;
   
   public illusHome: string = '../../../assets/img/illus-home-2-allie-du-mg.png'
   public line14: string = '../../../assets/img/line-1-4.svg'

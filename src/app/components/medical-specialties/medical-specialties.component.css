@@ -5,6 +5,7 @@
   top: 524px;
   left: 0;
   background-color: #ffeee7;
+  left: calc(3%);
 }
 
 .overlap-group-2 {

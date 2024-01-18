@@ -33,6 +33,7 @@
     height: 24px;
   }
   
+  
   .vector-6 {
     position: absolute;
     width: 24px;
@@ -208,12 +209,18 @@
 
   :host ::ng-deep mat-expansion-panel-header {
     height: 100% !important;
+
   
   }
 
   .header {
     color: #4C1690;
     font-weight: 600;
+    width: 400px !important;
+  }
+
+  mat-icon {
+    margin-left: 42px;
   }
 
   :host ::ng-deep mat-expansion-panel {
@@ -231,4 +238,16 @@
     border-color: var(--violet);
     background: transparent !important;
     color: var(--violet) !important;
+  }
+
+  mat-expansion-panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .icons-right {
+    display: flex;
+    align-items: center;
+    color: #4C1690;
   }
