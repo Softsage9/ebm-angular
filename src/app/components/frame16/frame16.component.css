@@ -20,7 +20,7 @@
     width: 100%;
     flex: 0 0 auto;
     background-color: #4c169033;
-    left: 15%;
+    left: 17%;
     
   }
 
@@ -67,14 +67,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 160px 0px 160px 150px;
+    padding: 160px 0 0 150px;
     position: relative;
     align-self: stretch;
     width: 100%;
     flex: 0 0 auto;
     background-color: var(--rose-clair);
-    left: 15%;
-    height: 100vh;
+    left: 17%;
   }
   
   .div-4 {
@@ -203,7 +202,7 @@
     position: absolute;
     width: 718px;
     height: 916px;
-    top: 3203px;
+    top: 3158px;
     left: 45%;
   }
 

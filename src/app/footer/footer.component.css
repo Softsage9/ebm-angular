@@ -1,0 +1,282 @@
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 781px;
+    top: 714px;
+    left: 232px;
+    background-color: var(--blanc);
+  }
+  
+ .NL {
+    position: absolute;
+    width: 1440px;
+    height: 120px;
+    top: 0;
+    left: 0;
+    background-image: url(../../assets/img/bg-2.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+
+  
+ .champs {
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    top: 32px;
+    left: 835px;
+    background-color: #ffffff33;
+    border-radius: 100px;
+    color: #fff;
+    border-width: 0cap;
+    font-family: 'Poppins', sans-serif; 
+    padding-left: 20px;
+    font-size: 1rem;
+  }
+  
+  .champs::placeholder {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+    font-size: 1rem;
+  }
+  
+ .text-wrapper-25 {
+    position: absolute;
+    top: 18px;
+    left: 32px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: var(--blanc);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+ .text-wrapper-26 {
+    position: absolute;
+    top: 19px;
+    left: 401px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: var(--blanc);
+    font-size: 14px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+ .line-3 {
+    position: absolute;
+    width: 1px;
+    height: 56px;
+    top: 0;
+    left: 377px;
+    object-fit: cover;
+  }
+  
+ .text-wrapper-27 {
+    position: absolute;
+    width: 263px;
+    top: 32px;
+    left: 150px;
+    font-family: var(--h6-font-family);
+    font-weight: var(--h6-font-weight);
+    color: var(--blanc);
+    font-size: var(--h6-font-size);
+    letter-spacing: var(--h6-letter-spacing);
+    line-height: var(--h6-line-height);
+    font-style: var(--h6-font-style);
+  }
+  
+ .recevez-toutes-les {
+    position: absolute;
+    width: 588px;
+    top: 56px;
+    left: 150px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: var(--blanc);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+ .text-wrapper-28 {
+    font-family: var(--courant-font-family);
+    font-weight: var(--courant-font-weight);
+    color: #ffffff;
+    font-size: var(--courant-font-size);
+    letter-spacing: var(--courant-letter-spacing);
+    line-height: var(--courant-line-height);
+    font-style: var(--courant-font-style);
+  }
+  
+ .footer-2 {
+    position: absolute;
+    width: 1141px;
+    height: 581px;
+    top: 200px;
+    left: 149px;
+    background-color: var(--blanc);
+  }
+  
+ .liens-bas {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 0px 0px 80px;
+    position: absolute;
+    top: 477px;
+    left: 0;
+  }
+  
+ .text-wrapper-29 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--small-font-family);
+    font-weight: var(--small-font-weight);
+    color: var(--gris);
+    font-size: var(--small-font-size);
+    text-align: center;
+    letter-spacing: var(--small-letter-spacing);
+    line-height: var(--small-line-height);
+    white-space: nowrap;
+    font-style: var(--small-font-style);
+  }
+  
+ .col {
+    display: inline-flex;
+    gap: 48px;
+    left: 976px;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 70px;
+  }
+  
+ .logos {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+ .text-wrapper-30 {
+    position: relative;
+    width: 163px;
+    margin-top: -1px;
+    font-family: var(--h6-font-family);
+    font-weight: var(--h6-font-weight);
+    color: var(--violet);
+    font-size: var(--h6-font-size);
+    letter-spacing: var(--h6-letter-spacing);
+    line-height: var(--h6-line-height);
+    font-style: var(--h6-font-style);
+  }
+  
+ .logo-CMG {
+    position: relative;
+    width: 120px;
+    height: 63.58px;
+  }
+  
+ .text-wrapper-31 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--h6-font-family);
+    font-weight: var(--h6-font-weight);
+    color: var(--violet);
+    font-size: var(--h6-font-size);
+    letter-spacing: var(--h6-letter-spacing);
+    line-height: var(--h6-line-height);
+    font-style: var(--h6-font-style);
+  }
+
+  .frame-22 {
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+ .col-2 {
+    display: flex;
+    width: 262px;
+    gap: 40px;
+    left: 684px;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 70px;
+  }
+  
+ .text-wrapper-32 {
+    position: relative;
+    width: 165px;
+    margin-top: -1px;
+    font-family: var(--BT-font-family);
+    font-weight: var(--BT-font-weight);
+    color: var(--violet);
+    font-size: var(--BT-font-size);
+    letter-spacing: var(--BT-letter-spacing);
+    line-height: var(--BT-line-height);
+    font-style: var(--BT-font-style);
+  }
+  
+ .text-wrapper-33 {
+    position: relative;
+    width: 165px;
+    font-family: var(--BT-font-family);
+    font-weight: var(--BT-font-weight);
+    color: var(--violet);
+    font-size: var(--BT-font-size);
+    letter-spacing: var(--BT-letter-spacing);
+    line-height: var(--BT-line-height);
+    font-style: var(--BT-font-style);
+  }
+  
+ .col-3 {
+    display: inline-flex;
+    gap: 40px;
+    left: 392px;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 70px;
+  }
+  
+ .text-wrapper-34 {
+    position: absolute;
+    width: 261px;
+    top: 70px;
+    left: 1px;
+    font-family: var(--small-font-family);
+    font-weight: var(--small-font-weight);
+    color: var(--gris-sombre);
+    font-size: var(--small-font-size);
+    letter-spacing: var(--small-letter-spacing);
+    line-height: var(--small-line-height);
+    font-style: var(--small-font-style);
+  }
+  
+ .logo-EMB {
+    position: absolute;
+    width: 248px;
+    height: 30px;
+    top: 0;
+    left: 1px;
+  }
+  
+ .contact {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+    position: absolute;
+    top: 80px;
+    left: 151px;
+  }
