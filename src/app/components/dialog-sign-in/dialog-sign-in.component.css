@@ -1,6 +1,6 @@
 h2[mat-dialog-title] {
   color: #4c1690;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
 }
@@ -68,4 +68,11 @@ mat-dialog-actions {
 mat-icon {
   margin-right: 5px;
   padding-top: 2px;
+}
+
+.close-button {
+  position: absolute;
+  top: 8px; /* Adjust top as needed */
+  right: 10px; /* Adjust right as needed */
+  z-index: 2; /* Ensure it's above other elements */
 }

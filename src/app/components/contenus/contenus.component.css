@@ -211,6 +211,7 @@
     border-radius: 100px;
     border: 1px solid;
     border-color: var(--violet);
+    color: var(--violet) !important;
   }
   
  .text-wrapper-21 {

@@ -53,9 +53,9 @@
 }
 
 .clap-wrapper {
-  animation: rotateWrapper 2s linear infinite;
+  animation: rotateWrapper 8s linear infinite;
 }
 
 .clap {
-  animation: counterRotate 2s linear infinite;
+  animation: counterRotate 8s linear infinite;
 }

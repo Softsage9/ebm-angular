@@ -64,14 +64,14 @@
   letter-spacing: 0;
   line-height: normal;
 }
-
 @keyframes scrollBanner {
-  0% { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* Move by half the total content width */
 }
 
-.div-2 {
+.frame-2 {
   display: flex;
   white-space: nowrap;
-  animation: scrollBanner 10s linear infinite;
+  animation: scrollBanner 20s linear infinite; /* Adjust time as needed */
 }
+
