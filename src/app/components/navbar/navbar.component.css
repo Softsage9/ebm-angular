@@ -1,10 +1,11 @@
 .nav {
   position: absolute;
-  width: 1440px;
-  height: 150px;
+  width: 100vw; /* Full width of the viewport */
+  height: 150px; /* Fixed height, or use vh for relative height */
   top: 0;
-  left: 0;
+  left: 240px;
 }
+
 
 .navbar {
   display: inline-flex;
