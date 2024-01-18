@@ -1,6 +1,6 @@
 h2[mat-dialog-title] {
   color: #4c1690;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
 }
@@ -8,6 +8,10 @@ h2[mat-dialog-title] {
 .content {
   padding-top: 5px;
   font-family: 'Inter', sans-serif;
+}
+
+.mat-mdc-dialog-actions .mat-button-base+.mat-button-base, .mat-mdc-dialog-actions .mat-mdc-button-base+.mat-mdc-button-base {
+  margin-left: 0px !important;
 }
 
 mat-dialog-content p {
@@ -20,17 +24,23 @@ mat-dialog-actions {
   flex-direction: column;
   align-items: stretch;
   margin-top: 20px;
+  padding: 10px 25px !important;
 
   .or-separator {
     text-align: center;
     margin: 20px 0;
+    color: #4c1690;
   }
 
   button {
     margin-top: 10px;
+    width: 450px !important;
   }
-
   /* Style specific buttons if needed */
+}
+
+.btn-conn-1 {
+  margin-bottom: 13px;
 }
 
 .strong {
@@ -51,7 +61,18 @@ mat-dialog-actions {
   height: 55px;
 }
 
+.btn-conn-2 {
+  margin-right: 10px;
+}
+
 mat-icon {
   margin-right: 5px;
   padding-top: 2px;
+}
+
+.close-button {
+  position: absolute;
+  top: 8px; /* Adjust top as needed */
+  right: 10px; /* Adjust right as needed */
+  z-index: 2; /* Ensure it's above other elements */
 }

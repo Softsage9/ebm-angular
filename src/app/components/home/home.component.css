@@ -17,14 +17,14 @@
   height: 6023px;
 }
 
-.element-home-non-connected .bg-rose {
+/* .element-home-non-connected .bg-rose {
   position: absolute;
   width: 1440px;
   height: 2401px;
   top: 3123px;
   left: 0;
   background-color: #ffeee8;
-}
+} */
 
 .element-home-non-connected .KV-et-rsp {
   position: absolute;
@@ -54,5 +54,18 @@
   padding: 0px 0px 120px;
   position: absolute;
   top: 867px;
-  left: 232px;
+  left: 316px;
+}
+
+.contenus-container {
+  padding-top: 120px;
+}
+
+.element-home-non-connected .bas-de-page {
+  position: absolute;
+  width: 1440px;
+  height: 1495px;
+  top: 4528px;
+  left: 0;
+  background-color: var(--blanc);
 }
