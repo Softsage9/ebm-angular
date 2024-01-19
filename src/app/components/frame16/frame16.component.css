@@ -177,12 +177,12 @@
     color: #4C1690;
   }
 
-  @media screen and (max-width: 1490px) {
+  @media screen and (max-width: 1600px) {
     .frame-17 {
-      left: 40%;
+      left: 37%;
     }
     .valeurs {
-      left: 40%;
+      left: 37%;
     }
 
     .illus-home-allie {
