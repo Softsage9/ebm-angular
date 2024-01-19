@@ -80,7 +80,14 @@
   .barre-info {
     right: 7.5px;
   }
+}
+@media screen and (max-width: 1200px) {
+  .barre-info {
+    right: 2.5px;
+  }
 
 }
+
+
 
 

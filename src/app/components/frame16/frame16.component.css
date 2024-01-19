@@ -190,3 +190,13 @@
     }
 
   }
+
+  
+  @media screen and (max-width: 1200px) {
+    .frame-16 {
+      right: 6%;
+    }
+    .illus-home-allie {
+      left: 78%;
+    }
+  }
