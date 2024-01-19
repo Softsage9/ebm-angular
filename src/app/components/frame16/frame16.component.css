@@ -114,28 +114,7 @@
     position: relative;
     top: 1px;
   }
-  
-  .frame-19 {
-    display: flex;
-    flex-direction: column;
-    width: 555px;
-    align-items: flex-start;
-    gap: 24px;
-    position: relative;
-    flex: 0 0 auto;
-  }
 
-  .frame-20 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 24px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-  
   .line-2 {
     position: relative;
     align-self: stretch;
@@ -143,60 +122,6 @@
     height: 1px;
     margin-top: -1px;
     object-fit: cover;
-  }
-  
-  .titre {
-    display: flex;
-    align-items: flex-start;
-    gap: 72px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-  
-  .EBM-l-alli-du-m {
-    position: relative;
-    align-self: stretch;
-    width: 459px;
-    margin-top: -1px;
-    font-family: var(--h4-font-family);
-    font-weight: var(--h4-font-weight);
-    color: var(--violet);
-    font-size: var(--h4-font-size);
-    letter-spacing: var(--h4-letter-spacing);
-    line-height: var(--h4-line-height);
-    font-style: var(--h4-font-style);
-  }
-  
-  .icone {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 6px;
-    left: 531px;
-  }
-  
-  .nous-avons-con-u-EBM {
-    position: relative;
-    width: 456px;
-    font-family: "Inter", Helvetica;
-    font-weight: 700;
-    color: var(--gris-sombre);
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: 32px;
-  }
-  
-  .gr-ce-nos-guides-de {
-    position: relative;
-    width: 456px;
-    font-family: "Inter", Helvetica;
-    font-weight: 400;
-    color: var(--gris-sombre);
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: 32px;
   }
 
   .illus-home-allie {

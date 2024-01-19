@@ -172,6 +172,10 @@
   background-color: transparent !important;
 }
 
+.btn-left {
+  margin-right: 20px;
+}
+
  .text-wrapper-7 {
   position: relative;
   width: fit-content;
@@ -392,28 +396,4 @@
   border-radius: 100px;
   border: 1px solid;
   border-color: var(--violet);
-}
-
- .text-wrapper-21 {
-  position: relative;
-  width: fit-content;
-  font-family: "Inter", Helvetica, sans-serif;
-  font-weight: 600;
-  color: var(--violet);
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
- .vector-6 {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  top: 1073px;
-  left: -6099px;
-}
-
-.btn-left {
-  margin-right: 20px;
 }
