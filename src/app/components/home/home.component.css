@@ -8,8 +8,8 @@
 
 .element-home-non-connected .overlap-wrapper {
   background-color: var(--blanc);
-  width: 1440px;
-  height: 6023px;
+  width: 100vw; /* Full viewport width */
+  min-height: 100vh; /* Minimum height of full viewport height */
 }
 
 .element-home-non-connected .overlap {
@@ -28,10 +28,10 @@
 
 .element-home-non-connected .KV-et-rsp {
   position: absolute;
-  width: 1440px;
-  height: 819px;
+  width: 100vh;
+  height: 100vh;
   top: 48px;
-  left: 0;
+  left: 204px;
 }
 
 .element-home-non-connected .overlap-group {
@@ -68,4 +68,12 @@
   top: 4528px;
   left: 0;
   background-color: var(--blanc);
+}
+
+@media screen and (max-width: 1024px) {
+  .element-home-non-connected .content {
+    padding: 0px 0px 5vw;
+    margin-top: 10vh;
+    width: 50%;
+  }
 }

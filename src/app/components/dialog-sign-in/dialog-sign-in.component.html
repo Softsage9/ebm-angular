@@ -7,13 +7,14 @@
   </h2>
   <mat-dialog-content>
     <p>
-      Ce contenu est réservé aux médecins généralistes et aux étudiants en médecine générale. Connectez-vous ou créez <strong class="strong">gratuitement</strong> votre compte pour y <strong>accéder</strong>.
+      Ce contenu est réservé aux médecins généralistes et aux étudiants en médecine générale. Connectez-vous ou créez
+      <strong class="strong">gratuitement</strong> votre compte pour y <strong>accéder</strong>.
     </p>
     <mat-icon>info</mat-icon>
     <small>Vous êtes interne ? Vous pouvez vous inscrire lorem ipsum dolor sit amet</small>
   </mat-dialog-content>
   <mat-dialog-actions>
-    <button class="btn-conn btn-conn-1" mat-raised-button>Me connecter</button>
+    <button class="btn-conn btn-conn-1" mat-raised-button (click)="onConnectClick()">Me connecter</button>
     <button class="btn-conn btn-conn-2" mat-raised-button>Créer mon compte</button>
     <div class="or-separator">ou</div>
     <button mat-button>Identifier avec PRO SANTE CONNECT</button>
