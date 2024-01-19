@@ -76,3 +76,11 @@
   animation: scrollBanner 20s linear infinite; /* Adjust time as needed */
 }
 
+@media screen and (max-width: 1490px) {
+  .barre-info {
+    right: 7px;
+  }
+
+}
+
+

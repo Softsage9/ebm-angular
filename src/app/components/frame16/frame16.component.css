@@ -8,7 +8,7 @@
     right: 25%;
   }
 
-  
+
   .frame-17 {
     display: flex;
     flex-direction: column;
@@ -21,19 +21,19 @@
     flex: 0 0 auto;
     background-color: #4c169033;
     left: 17%;
-    
+
   }
 
   .frame {
     padding-right: 270px;
   }
-  
+
   .layer {
     position: relative;
     height: 24px;
   }
-  
-  
+
+
   .vector-6 {
     position: absolute;
     width: 24px;
@@ -41,7 +41,7 @@
     top: 1073px;
     left: -6099px;
   }
-  
+
   .union-2 {
     position: absolute;
     width: 20px;
@@ -49,7 +49,7 @@
     top: 26px;
     left: 22%;
   }
-  
+
   .text-wrapper-22 {
     position: relative;
     width: fit-content;
@@ -63,7 +63,7 @@
     white-space: nowrap;
     margin-left: 300px;
   }
-  
+
   .valeurs {
     display: flex;
     flex-direction: column;
@@ -76,7 +76,7 @@
     background-color: var(--rose-clair);
     left: 17%;
   }
-  
+
   .div-4 {
     display: inline-flex;
     flex-direction: column;
@@ -86,7 +86,7 @@
     flex: 0 0 auto;
     right: 9%;
   }
-  
+
   .text-wrapper-23 {
     position: relative;
     width: 517px;
@@ -99,13 +99,13 @@
     line-height: var(--h1-line-height);
     font-style: var(--h1-font-style);
   }
-  
+
   .valeurs-2 {
     position: relative;
     width: 555px;
     height: 901px;
   }
-  
+
   .frame-18 {
     display: inline-flex;
     flex-direction: column;
@@ -135,7 +135,7 @@
   :host ::ng-deep mat-expansion-panel-header {
     height: 100% !important;
 
-  
+
   }
 
   .header {
@@ -151,7 +151,7 @@
   :host ::ng-deep mat-expansion-panel {
     background-color: transparent !important;
   }
-  
+
   .BT {
     display: inline-flex;
     height: 64px;
@@ -170,9 +170,23 @@
     justify-content: space-between;
     align-items: center;
   }
-  
+
   .icons-right {
     display: flex;
     align-items: center;
     color: #4C1690;
+  }
+
+  @media screen and (max-width: 1490px) {
+    .frame-17 {
+      left: 40%;
+    }
+    .valeurs {
+      left: 40%;
+    }
+
+    .illus-home-allie {
+      left: 60%;
+    }
+
   }
